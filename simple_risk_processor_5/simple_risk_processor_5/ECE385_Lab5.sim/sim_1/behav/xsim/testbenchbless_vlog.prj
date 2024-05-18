@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ECE385_Lab5.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../ECE385_Lab5.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+
+sv xil_defaultlib  \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/ISDU.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/SLC3_2.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/Instantiateram.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/Mem2IO.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/design_source/hex.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/design_source/reg_17.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/new/regfile.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/slc3.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/synchronizers.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/slc3_sramtop.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/memory_contents.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/test_memory.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/imports/srcs/slc3_testtop.sv" \
+"../../../../ECE385_Lab5.srcs/sources_1/new/mux_4_1.sv" \
+"../../../../ECE385_Lab5.srcs/sim_1/new/testbenchbless.sv" \
+"../../../../ECE385_Lab5.srcs/sim_1/new/testbenchreg.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

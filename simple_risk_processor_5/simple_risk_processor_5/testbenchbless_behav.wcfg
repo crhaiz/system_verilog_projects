@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbenchbless_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SLC3_2" />
+            <top_module name="glbl" />
+            <top_module name="testbenchbless" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="28.920001 us"></ZoomEndTime>
+      <Cursor1Time time="21.460000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="98"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wave_markers>
+      <marker time="4600000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/testbenchbless/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/SW" type="array">
+      <obj_property name="ElementShortName">SW[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/hex_4" type="array">
+      <obj_property name="ElementShortName">hex_4[3:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_4[3:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/IR" type="array">
+      <obj_property name="ElementShortName">IR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/Continue" type="logic">
+      <obj_property name="ElementShortName">Continue</obj_property>
+      <obj_property name="ObjectShortName">Continue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/Run" type="logic">
+      <obj_property name="ElementShortName">Run</obj_property>
+      <obj_property name="ObjectShortName">Run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/Data_from_SRAM" type="array">
+      <obj_property name="ElementShortName">Data_from_SRAM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_from_SRAM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/Data_to_SRAM" type="array">
+      <obj_property name="ElementShortName">Data_to_SRAM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_to_SRAM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/OE" type="logic">
+      <obj_property name="ElementShortName">OE</obj_property>
+      <obj_property name="ObjectShortName">OE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/WE" type="logic">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/state_controller/State" type="array">
+      <obj_property name="ElementShortName">State[4:0]</obj_property>
+      <obj_property name="ObjectShortName">State[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/state_controller/Opcode" type="array">
+      <obj_property name="ElementShortName">Opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/PCtemp" type="array">
+      <obj_property name="ElementShortName">PCtemp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PCtemp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/PCout" type="array">
+      <obj_property name="ElementShortName">PCout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/BUS" type="array">
+      <obj_property name="ElementShortName">BUS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/state_controller/LD_REG" type="logic">
+      <obj_property name="ElementShortName">LD_REG</obj_property>
+      <obj_property name="ObjectShortName">LD_REG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/MAR" type="array">
+      <obj_property name="ElementShortName">MAR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MAR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/ADDRMUX_temp" type="array">
+      <obj_property name="ElementShortName">ADDRMUX_temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRMUX_temp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/ADDR2MUXtemp" type="array">
+      <obj_property name="ElementShortName">ADDR2MUXtemp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR2MUXtemp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/ADDR1MUXtemp" type="array">
+      <obj_property name="ElementShortName">ADDR1MUXtemp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR1MUXtemp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/SR1MUX" type="logic">
+      <obj_property name="ElementShortName">SR1MUX</obj_property>
+      <obj_property name="ObjectShortName">SR1MUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/MDR" type="array">
+      <obj_property name="ElementShortName">MDR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MDR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/SR1toalu" type="array">
+      <obj_property name="ElementShortName">SR1toalu[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SR1toalu[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/BEN" type="logic">
+      <obj_property name="ElementShortName">BEN</obj_property>
+      <obj_property name="ObjectShortName">BEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/register/SR2in" type="array">
+      <obj_property name="ElementShortName">SR2in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SR2in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/register/SR1in" type="array">
+      <obj_property name="ElementShortName">SR1in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SR1in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/ALUtemp" type="array">
+      <obj_property name="ElementShortName">ALUtemp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUtemp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/GateALU" type="logic">
+      <obj_property name="ElementShortName">GateALU</obj_property>
+      <obj_property name="ObjectShortName">GateALU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/MDR_In" type="array">
+      <obj_property name="ElementShortName">MDR_In[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MDR_In[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbenchbless/bruhh/slc/PCMUX" type="array">
+      <obj_property name="ElementShortName">PCMUX[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCMUX[1:0]</obj_property>
+   </wvobject>
+</wave_config>

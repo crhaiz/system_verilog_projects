@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="569.704 ns"></ZoomEndTime>
+      <Cursor1Time time="100,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/testbench/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Reset_Clear" type="logic">
+      <obj_property name="ElementShortName">Reset_Clear</obj_property>
+      <obj_property name="ObjectShortName">Reset_Clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/SW" type="array">
+      <obj_property name="ElementShortName">SW[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Aval" type="array">
+      <obj_property name="ElementShortName">Aval[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Aval[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Bval" type="array">
+      <obj_property name="ElementShortName">Bval[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Bval[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bruhh/A_output" type="array">
+      <obj_property name="ElementShortName">A_output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bruhh/B_output" type="array">
+      <obj_property name="ElementShortName">B_output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bruhh/Run_Accumulate" type="logic">
+      <obj_property name="ElementShortName">Run_Accumulate</obj_property>
+      <obj_property name="ObjectShortName">Run_Accumulate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bruhh/run_once/Run" type="logic">
+      <obj_property name="ElementShortName">Run</obj_property>
+      <obj_property name="ObjectShortName">Run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bruhh/run_once/curr_state" type="array">
+      <obj_property name="ElementShortName">curr_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bruhh/run_once/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/bruhh/fulladderoutput" type="array">
+      <obj_property name="ElementShortName">fulladderoutput[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fulladderoutput[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Xval" type="logic">
+      <obj_property name="ElementShortName">Xval</obj_property>
+      <obj_property name="ObjectShortName">Xval</obj_property>
+   </wvobject>
+</wave_config>
