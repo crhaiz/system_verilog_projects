@@ -1,0 +1,6 @@
+12:46:15 **** Incremental Build of configuration Debug for project bruh2_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+12:46:15 Build Finished (took 129ms)
+
